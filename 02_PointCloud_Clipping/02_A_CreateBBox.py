@@ -5,7 +5,7 @@ from pathlib import Path
 # === Parameter (hier anpassen) ===
 x_center = 2615390.524
 y_center = 1264898.409
-buffer = 10  # Seitenlänge des Quadrats in Metern
+buffer = 10
 output_file = "Kirsche_10m.gpkg"
 layer_name = "bbox"
 crs = "EPSG:2056"
