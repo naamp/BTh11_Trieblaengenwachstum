@@ -96,7 +96,7 @@ pip install \
   zipp==3.21.0
 ```
 
-## Hinweise
+## 2. Hinweise
 
 - Die Installation verwendet `conda-forge`
 - Es wird eine Kombination aus `conda` und `pip` verwendet

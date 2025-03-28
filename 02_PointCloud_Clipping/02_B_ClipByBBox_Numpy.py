@@ -23,7 +23,7 @@ las = laspy.read(las_file)
 x = las.x
 y = las.y
 
-# Schneller vektorbasierter Bounding-Box-Filter
+# vektorbasierter Bounding-Box-Filter für Quadrate
 mask = (x >= x_min) & (x <= x_max) & (y >= y_min) & (y <= y_max)
 
 if not mask.any():
