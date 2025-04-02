@@ -1,0 +1,8 @@
+Aufnahme_ID,TPF,Anzahl_Ringe,Nadir,Anzahl_Bilder,Format,Windboehen,ImageAlignement_Accuracy,Key_Point_Limit,Tie_Point_Limit,Excl_Stationary_Tie_Pts,Guided_Img_Matching,Adaptive_Model_Fitting,Start_Points,Automatic_Filtering,Manual_Filtering,Reprojection_Error,Reconstruction_Uncertainty,Image_Count,Projection_Accuracy,Automatic_Detection,GCP_Accuracy_m,XY_Error_mm,Z_Error_mm,Total_Error_mm,Error_pix,Metashape_Report,Source_Data,PointCloud_Quality,Depth_Filtering,Point_Colors,Point_Confidence,Points_Total,Points_Tree
+20250326_DJIMini3Pro_Kirsche,100%,7,True,444,H,False,Highest,60000,0,True,False,True,858000,615000,615000,,,,,True,0.01,5.32,4.32,6.85,1.75,True,DM,U-High,Mild,True,True,30
+20250326_DJIMini3Pro_Kirsche,90%,7,True,444,H,False,Highest,60000,0,True,False,True,858000,615000,554000,,70.0,,20.0,True,0.01,5.2,4.26,6.72,1.72,True,DM,U-High,Mild,True,True,29
+20250326_DJIMini3Pro_Kirsche,80%,7,True,444,H,False,Highest,60000,0,True,False,True,858000,615000,492000,,52.0,,18.0,True,0.01,5.14,4.14,6.6,1.7,True,DM,U-High,Mild,True,True,29
+20250326_DJIMini3Pro_Kirsche,70%,7,True,444,H,False,Highest,60000,0,True,False,True,858000,615000,431000,,42.0,,15.0,True,0.01,5.12,4.04,6.52,1.68,True,DM,U-High,Mild,True,True,29
+20250326_DJIMini3Pro_Kirsche,60%,7,True,444,H,False,Highest,60000,0,True,False,True,858000,615000,369000,,35.0,,12.0,True,0.01,5.14,3.97,6.49,1.66,True,DM,U-High,Mild,True,True,29
+20250326_DJIMini3Pro_Kirsche,40%,7,True,444,H,False,Highest,60000,0,True,False,True,858000,615000,246000,,24.0,,10.0,True,0.01,5.34,3.81,6.56,1.56,True,DM,U-High,Mild,True,True,28
+20250326_DJIMini3Pro_Kirsche,20%,7,True,444,H,False,Highest,60000,0,True,False,True,858000,615000,123000,,16.0,,8.0,True,0.01,5.33,3.94,6.63,1.37,True,DM,U-High,Mild,True,True,28

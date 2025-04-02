@@ -4,10 +4,10 @@ import numpy as np
 from pathlib import Path
 
 # === Parameter (hier anpassen) ===
-las_file = Path("../20250311_DJIMini3Pro_Kirsche_TiePointFiltering_100.las")
-gpkg_file = Path("Kirsche_10m.gpkg")
+las_file = Path("F:\\530_PointClouds_TPF\\20250311_DJIMini3Pro_Kirsche_TiePointFiltering_90.las")
+gpkg_file = Path("C:\\_Data\\BTh11\\BTh11_Trieblaengenwachstum\\02_PointCloud_Clipping\\02_BBox_Data\\Kirsche_10m.gpkg")
 layer_name = "bbox"
-output_file = Path("clipped/20250311_DJIMini3Pro_Kirsche_TiePointFiltering_100_clipped.las")
+output_file = Path("F:\\530_PointClouds_TPF\\20250311_DJIMini3Pro_Kirsche_TiePointFiltering_90_clipped.las")
 
 # === GeoPackage laden und Bounding Box extrahieren ===
 gdf = gpd.read_file(gpkg_file, layer=layer_name)

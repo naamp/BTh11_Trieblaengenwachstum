@@ -102,3 +102,5 @@ pip install \
 - Es wird eine Kombination aus `conda` und `pip` verwendet
 - Diese Anleitung setzt eine funktionierende Anaconda/Miniconda-Installation auf Windows voraus
 
+## 3. Repository Struktur
+
