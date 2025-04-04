@@ -2,11 +2,26 @@ import geopandas as gpd
 from shapely.geometry import box
 from pathlib import Path
 
+# === Werte der verschiedenen Bäume ===
+#   Kirsche:
+#   x_center = 2615390.524
+#   y_center = 1264898.409
+
+#   Ahorn:
+#   x_center = 2615433.515
+#   y_center = 1264855.159
+
+#   Linde:
+#   x_center = 2615380.973
+#   y_center = 1264833.248
+
+
+
 # === Parameter (hier anpassen) ===
-x_center = 2615390.524
-y_center = 1264898.409
+x_center = 2615433.515
+y_center = 1264855.159
 buffer = 10
-output_file = "Kirsche_10m.gpkg"
+output_file = "Ahorn_10m.gpkg"
 layer_name = "bbox"
 crs = "EPSG:2056"
 
