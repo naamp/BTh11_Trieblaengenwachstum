@@ -2,7 +2,7 @@ import laspy
 import os
 
 # Absoluter Pfad zur LAS-Datei
-pc_path = r"C:\_Data\BTh11\BTh11_Trieblaengenwachstum\05_Software_Comparison\50_BaseData\PointCloud\20250311_DJIMini3Pro_Kirsche_TiePointFiltering_80_clipped.las"
+pc_path = r"C:\_Data\BTh11\BTh11_Trieblaengenwachstum\05_Software_Comparison\50_BaseData\PointCloud\20250326\20250326_DJIMini3Pro_Kirsche_Drone2Map_clipped.las"
 
 try:
     las = laspy.read(pc_path)
