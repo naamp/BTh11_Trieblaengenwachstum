@@ -2,3 +2,5 @@
 clipped/
 03_TPF_Statistics/30_BaseData/PointCloud
 05_Software_Comparison/50_BaseData/PointCloud
+06_UAV_Comparison/60_BaseData/PointCloud
+.conda
