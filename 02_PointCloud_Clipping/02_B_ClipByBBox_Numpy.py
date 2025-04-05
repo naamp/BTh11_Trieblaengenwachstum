@@ -4,12 +4,12 @@ import numpy as np
 from pathlib import Path
 
 # === Parameter (hier anpassen) ===
-print("CLipping gestartet")
+
 las_file = Path("D:\\BTh11_Asuwertung_PC\\05_Datenprozessierung\\50_Auswertung_PG\\20250326_DJIMini3Pro_Kirsche_pointcloud.las")
 gpkg_file = Path("D:\\BTh11_Asuwertung_PC\\fhnw_code\\BTh11_Trieblaengenwachstum\\02_PointCloud_Clipping\\02_BBox_Data\\Kirsche_10m.gpkg")
 layer_name = "bbox"
 output_file = Path("D:\\BTh11_Asuwertung_PC\\fhnw_code\\BTh11_Trieblaengenwachstum\\06_UAV_Comparison\\60_BaseData\\PointCloud\\20250326_DJIMini3Pro_Kirsche_clipped.las")
-print("Pfade gelesen")
+
 # === GeoPackage laden und Bounding Box extrahieren ===
 gdf = gpd.read_file(gpkg_file, layer=layer_name)
 if gdf.empty:
