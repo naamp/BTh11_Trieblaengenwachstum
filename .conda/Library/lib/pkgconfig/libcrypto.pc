@@ -1,0 +1,11 @@
+prefix=d:/BTh11_Asuwertung_PC/fhnw_code/BTh11_Trieblaengenwachstum/.conda/Library 
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Libs: -L"${libdir}" -llibcrypto
+Libs.private: -lcrypt32 -lws2_32
+Cflags: -I"${includedir}"
+Version: 3.0.16 
