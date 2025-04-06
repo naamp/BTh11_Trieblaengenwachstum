@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Parameter – Pfad zur Punktwolke
-pc_path = r"C:\_Data\BTh11\BTh11_Trieblaengenwachstum\05_Software_Comparison\50_BaseData\PointCloud\20250326\20250326_DJIMini3Pro_Kirsche_Drone2Map_clipped.las"
+pc_path = r"F:\20250319_DJIMini3Pro_Kirsche_Metashape.las"
 
 # Cell 3: Punktwolke einlesen
 try:

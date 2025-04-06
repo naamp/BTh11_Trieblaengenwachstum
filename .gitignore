@@ -2,5 +2,8 @@
 clipped/
 03_TPF_Statistics/30_BaseData/PointCloud
 05_Software_Comparison/50_BaseData/PointCloud
+05_Software_Comparison/05_A_Software_Comparison_PointCloud.ipynb
 06_UAV_Comparison/60_BaseData/PointCloud
+07_Check_PG-PointCloud_Completeness/70_BaseDate/PointCloud
+08_PointCloud_2_B-Spline-Model/80_BaseData/PointCloud
 .conda
