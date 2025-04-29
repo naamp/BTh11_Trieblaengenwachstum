@@ -1,6 +1,5 @@
 # Inhalte, welche die Dateigrösse für GitHub überschreiten, werden hier für den Upload ausgeschlossen
 clipped/
-03_TPF_Statistics/30_BaseData/PointCloud
 05_Software_Comparison/50_BaseData/PointCloud
 05_Software_Comparison/05_A_Software_Comparison_PointCloud.ipynb
 06_UAV_Comparison/60_BaseData/PointCloud
@@ -8,4 +7,6 @@ clipped/
 08_PointCloud_2_B-Spline-Model/80_BaseData/PointCloud
 09_CraneCam_ZHAW_Comparison/90_BaseData/PointCloud
 10_ImageAlignement_Testing/100_BaseData/PointCloud
+03_TPF_Statistics/30_BaseData/pc_tree_cleaned
+03_TPF_Statistics/30_BaseData/pc_tree
 .conda
