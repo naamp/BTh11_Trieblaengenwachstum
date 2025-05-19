@@ -4,8 +4,8 @@ from pathlib import Path
 
 # === Parameter (hier anpassen) ===
 
-las_file = Path(r"D:\BTh11_Asuwertung_PC\fhnw_code\BTh11_Trieblaengenwachstum\06_UAV_Comparison\60_BaseData\PointCloud\20250326_DJIMini3Pro_Kirsche_clipped.las")
-output_file = Path(r"D:\BTh11_Asuwertung_PC\fhnw_code\BTh11_Trieblaengenwachstum\06_UAV_Comparison\60_BaseData\PointCloud\pc_tree\20250326_DJIMini3Pro_Kirsche_clipped_tree.las")
+las_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250319_DJIMini3Pro_Kirsche_clipped.las")
+output_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250319_DJIMini3Pro_Kirsche_clipped_cleaned.las")
 
 # Höhenfilter: Nur Punkte oberhalb dieser Höhe (in denselben Einheiten wie Z im LAS-File)
 
