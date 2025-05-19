@@ -3,12 +3,11 @@ import geopandas as gpd
 import numpy as np
 from pathlib import Path
 
-# EINGABE Parameter ===
-
-las_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250319_DJIMini3Pro_Kirsche.las")
-gpkg_file = Path(r"C:\_Data\BTh11\BTh11_Trieblaengenwachstum\02_PointCloud_Clipping\02_BBox_Data\Kirsche_10m.gpkg")
+# === Parameter (hier anpassen) ===
+las_file = Path(r"F:\50_Auswertung_PG\506_CraneCam\5062_CraneCam_Asuwertung\20250224_CraneCam\20250224_CraneCam_ZHAW.las")
+gpkg_file = Path(r"D:\BTh11_Asuwertung_PC\fhnw_code\BTh11_Trieblaengenwachstum\02_PointCloud_Clipping\02_BBox_Data\ZHAW.gpkg")
 layer_name = "bbox"
-output_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250319_DJIMini3Pro_Kirsche_clipped.las")
+output_file = Path(r"F:\50_Auswertung_PG\506_CraneCam\5062_CraneCam_Asuwertung\20250224_CraneCam\20250224_CraneCam_ZHAW_clipped.las")
 
 # === GeoPackage laden und Bounding Box extrahieren ===
 gdf = gpd.read_file(gpkg_file, layer=layer_name)
