@@ -5,10 +5,10 @@ from pathlib import Path
 
 # EINGABE Parameter ===
 
-las_file = Path(r"G:\52_Vollstaendigkeitspruefung\20250319_RTC360_Kirsche_clipped_1.las")
+las_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250423_DJIPhantom4ProV2_Kirsche\20250423_DJIPhantom4ProV2_Kirsche.las")
 gpkg_file = Path(r"C:\_Data\BTh11\BTh11_Trieblaengenwachstum\02_PointCloud_Clipping\02_BBox_Data\Kirsche_10m.gpkg")
 layer_name = "bbox"
-output_file = Path(r"G:\52_Vollstaendigkeitspruefung\20250326_DJIMini3Pro_Kirsche\20250319_RTC360_Kirsche_clipped.las")
+output_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250423_DJIPhantom4ProV2_Kirsche\20250423_DJIPhantom4ProV2_Kirsche_clipped.las")
 
 # === Werte der verschiedenen Bäume ===
 height_kirsche = 280.00
@@ -16,7 +16,7 @@ height_ahorn = 278.80
 height_linde = 280.50
 
 # EINGABE Variable, Anpassen je nach Baum!!!!
-min_height = height_kirsche 
+min_height = height_kirsche
 
 # === GeoPackage laden und Bounding Box extrahieren ===
 gdf = gpd.read_file(gpkg_file, layer=layer_name)
