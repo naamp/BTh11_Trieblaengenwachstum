@@ -1,0 +1,25 @@
+Datum,UAV,Baum,Kameraparameter,Value,Error
+24.03.2025,DJI Phantom 4 Pro V2,Kirsche,F,3704.8,
+24.03.2025,DJI Phantom 4 Pro V2,Kirsche,Cx,15.4731,
+24.03.2025,DJI Phantom 4 Pro V2,Kirsche,Cy,-18.133,
+24.03.2025,DJI Phantom 4 Pro V2,Kirsche,K1,-0.0133732,
+24.03.2025,DJI Phantom 4 Pro V2,Kirsche,K2,0.00180584,
+24.03.2025,DJI Phantom 4 Pro V2,Kirsche,K3,0.00625927,
+24.03.2025,DJI Phantom 4 Pro V2,Kirsche,P1,0.00137886,
+24.03.2025,DJI Phantom 4 Pro V2,Kirsche,P2,-0.00224419,
+11.04.2025,DJI Phantom 4 Pro V2,Kirsche,F,3703.63,0.02
+11.04.2025,DJI Phantom 4 Pro V2,Kirsche,Cx,14.3092,0.033
+11.04.2025,DJI Phantom 4 Pro V2,Kirsche,Cy,-16.621,0.031
+11.04.2025,DJI Phantom 4 Pro V2,Kirsche,K1,-0.0141523,1.7e-05
+11.04.2025,DJI Phantom 4 Pro V2,Kirsche,K2,0.00280497,4.1e-05
+11.04.2025,DJI Phantom 4 Pro V2,Kirsche,K3,0.00543799,3.2e-05
+11.04.2025,DJI Phantom 4 Pro V2,Kirsche,P1,0.00128845,2.9e-06
+11.04.2025,DJI Phantom 4 Pro V2,Kirsche,P2,-0.00212617,2.6e-06
+23.04.2025,DJI Phantom 4 Pro V2,Kirsche,F,3703.98,0.027
+23.04.2025,DJI Phantom 4 Pro V2,Kirsche,Cx,14.9692,0.044
+23.04.2025,DJI Phantom 4 Pro V2,Kirsche,Cy,-15.9078,0.047
+23.04.2025,DJI Phantom 4 Pro V2,Kirsche,K1,-0.0144722,2.6e-05
+23.04.2025,DJI Phantom 4 Pro V2,Kirsche,K2,0.00365406,6.1e-05
+23.04.2025,DJI Phantom 4 Pro V2,Kirsche,K3,0.00488928,4.8e-05
+23.04.2025,DJI Phantom 4 Pro V2,Kirsche,P1,0.00133634,3.8e-06
+23.04.2025,DJI Phantom 4 Pro V2,Kirsche,P2,-0.00213623,4e-06
