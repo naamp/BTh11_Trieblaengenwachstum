@@ -5,10 +5,10 @@ from pathlib import Path
 
 # EINGABE Parameter ===
 
-las_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250423_DJIPhantom4ProV2_Kirsche\20250423_DJIPhantom4ProV2_Kirsche.las")
+las_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250324_DJIPhantom4ProV2_Kirsche\20250324_DJIPhantom4ProV2_Kirsche.las")
 gpkg_file = Path(r"C:\_Data\BTh11\BTh11_Trieblaengenwachstum\02_PointCloud_Clipping\02_BBox_Data\Kirsche_10m.gpkg")
 layer_name = "bbox"
-output_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250423_DJIPhantom4ProV2_Kirsche\20250423_DJIPhantom4ProV2_Kirsche_clipped.las")
+output_file = Path(r"G:\50_Auswertung_PG\500_Metashape\5001_Kirsche\20250324_DJIPhantom4ProV2_Kirsche\20250324_DJIPhantom4ProV2_Kirsche_clipped.las")
 
 # === Werte der verschiedenen Bäume ===
 height_kirsche = 280.00
