@@ -1,14 +1,14 @@
 Date, Instrument, Tree, Wind, Used
-2025-02-21,LeicaRTC360,Ahorn,N, True
-2025-02-28,LeicaRTC360,Ahorn,N, True
+2025-02-21,LeicaRTC360,Ahorn,N, False
+2025-02-28,LeicaRTC360,Ahorn,N, False
 2025-03-05,LeicaRTC360,Ahorn,N, True
 2025-05-08,LeicaRTC360,Ahorn,N, True
-2025-02-28,LeicaRTC360,Kirsche,N, True
+2025-02-28,LeicaRTC360,Kirsche,N, False
 2025-03-05,LeicaRTC360,Kirsche,N, True
 2025-03-19,LeicaRTC360,Kirsche,N, True
 2025-03-24,LeicaRTC360,Kirsche,N, True
 2025-04-23,LeicaRTC360,Kirsche,N, True
-2025-02-21,LeicaRTC360,Linde,N, True
-2025-02-28,LeicaRTC360,Linde,N, True
+2025-02-21,LeicaRTC360,Linde,N, False
+2025-02-28,LeicaRTC360,Linde,N, False
 2025-03-05,LeicaRTC360,Linde,N, True
 2025-05-08,LeicaRTC360,Linde,N, True

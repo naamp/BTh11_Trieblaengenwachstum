@@ -10,3 +10,5 @@ clipped/
 03_TPF_Statistics/30_BaseData/pc_tree_cleaned
 03_TPF_Statistics/30_BaseData/pc_tree
 .conda
+*.las
+14_TreeQSM-Zylinder_to_Skeleton\140_BaseData\pointcloud\20250324_DJIPhantom4ProV2_Kirsche_clipped_cleaned.txt
