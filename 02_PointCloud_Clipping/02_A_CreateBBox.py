@@ -1,3 +1,5 @@
+# INFO: *Der folgende Code wurde mithilfe von ChatGPT (OpenAI) erstellt und/oder bearbeitet.*
+
 import geopandas as gpd
 from shapely.geometry import box
 from pathlib import Path

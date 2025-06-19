@@ -1,3 +1,5 @@
+# INFO *Der folgende Code wurde mithilfe von ChatGPT (OpenAI) erstellt und/oder bearbeitet.*
+
 import cv2
 import os
 
