@@ -103,4 +103,63 @@ pip install \
 - Diese Anleitung setzt eine funktionierende Anaconda/Miniconda-Installation auf Windows voraus
 
 ## 3. Repository Struktur
+Das Repository `BTh11_Trieblaengenwachstum` ist modular aufgebaut und gliedert sich in Teilschritte der Punktwolkenanalyse, die der quantitativen Erfassung des Trieblängenwachstums mittels UAV-Photogrammetrie und LiDAR dienen:
 
+```text
+📁 01_PointCloud_Attributes           
+    → Prüfen von Attributen photogrammetrischer Punktwolken
+
+📁 02_PointCloud_Clipping            
+    → Zuschneiden von Punktwolken basierend auf Geometrie (BBox) und Höhe
+
+📁 03_TPF_Statistics                 
+    → Statistische Analyse der Tie Point Filtering-Effekte auf Punktwolkenqualität
+
+📁 04_FrameExtraction_Video         
+    → Extraktion von Einzelbildern für Spezialauswertungen
+
+📁 05_Software_Comparison           
+    → Vergleich verschiedener SfM-Softwares (Metashape vs. Drone2Map)
+
+📁 06_UAV_Comparison                
+    → Vergleich der Punktwolkenergebnisse von DJI Mini 3 Pro und Phantom 4 Pro V2
+
+📁 07_Check_PG-PointCloud_Completeness  
+    → Untersuchung der Rekonstruktionsvollständigkeit im Vergleich zur TLS-Referenz
+
+📁 08_PointCloud_2_Skeleton         
+    → Vorbereitung und Datenhaltung für Skelettierungsansätze (z. B. TreeQSM, AdTree)
+
+📁 09_CraneCam_ZHAW_Comparison     
+    → Vergleich von UAV-Punktwolken mit Bilddaten des CraneCam-Systems (ZHAW)
+
+📁 10_ImageAlignment_Testing       
+    → Einfluss unterschiedlicher Matching-/Alignment-Parameter auf die Rekonstruktion
+
+📁 11_Camera_TestChart             
+    → Vergleich der Kameras anhand ISO-12233-Charts zur Beurteilung der Bildqualität
+
+📁 12_CameraCalibration            
+    → Analyse und Visualisierung der internen Kamerakalibrierungsparameter
+
+📁 13_Voxel_based_pc_analysis      
+    → Voxelisierung von Punktwolken zur volumetrischen Analyse der Baumkronen
+
+📁 14_TreeQSM-Zylinder_to_Skeleton 
+    → Transformation von QSM-Zylindermodellen in Skelettstrukturen (Triebebene)
+
+📁 15_Calendar_Vis                 
+    → Visualisierung der Aufnahme- und Messzeitpunkte im Projektverlauf
+
+📁 16_Metadata_Statistics          
+    → Analyse der EXIF-Daten zur Nachvollziehbarkeit der UAV-Aufnahmen
+
+📁 17_ShootLengthGrowth_Vis       
+    → Visualisierung gemessener Trieblängen (Messstreifen, Kurvenverlauf pro Baumart)
+
+📁 18_Timeline_RMSE_ERROR         
+    → Zeitreihenvergleich der RMSE-Werte (3D-Fehler, Pixelabweichung)
+
+📁 99_old                         
+    → Archivierte Skripts
+```
