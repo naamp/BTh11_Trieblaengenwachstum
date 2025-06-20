@@ -115,23 +115,24 @@ Das Repository `BTh11_Trieblaengenwachstum` ist modular aufgebaut und gliedert s
     ├── 📄 02_A_CreateBBox.py
     ├── 📄 02_B_ClipByBBox_Numpy.py
     ├── 📄 02_C_ClipByHeight_Numpy.py
-    └── 📄 02_D_ClipByBBoxandHeight_Numpy.py
+    ├── 📄 02_D_ClipByBBoxandHeight_Numpy.py
+    └── 📁 02_BBox_Data
 
 📁 03_TPF_Statistics
     → Statistische Analyse der Tie Point Filtering-Effekte auf Punktwolkenqualität
     ├── 📄 03_A_Histogramm_ConfidencePerCategory.py
     ├── 📄 03_B_Histogramm_Confidence_Multiples.py
     ├── 📄 03_C_Linien_absPointCount.py
-    ├── 📄 03_TPF_Statistics.ipynb
     ├── 📄 03_D_TPF_Statistics_PointCloud_Confidence_blue-tones.ipynb
     ├── 📄 03_D_TPF_Statistics_PointCloud_Confidence_rainbow.ipynb
+    └── 📄 03_TPF_Statistics.ipynb
     ├── 📁 30_BaseData
-    │   └── 📁 CSV
-    │       ├── 📄 MetashapeReportData_20250311_DJIMini3Pro_Kirsche.csv
-    │       ├── 📄 MetashapeReportData_20250319_DJIMini3Pro_Kirsche.csv
-    │       └── 📄 MetashapeReportData_20250326_DJIMini3Pro_Kirsche.csv
-
-    │   └── 🪨 *.las
+    │   ├── 📁 CSV
+    │   │   ├── 📄 MetashapeReportData_20250311_DJIMini3Pro_Kirsche.csv
+    │   │   ├── 📄 MetashapeReportData_20250319_DJIMini3Pro_Kirsche.csv
+    │   │   └── 📄 MetashapeReportData_20250326_DJIMini3Pro_Kirsche.csv
+    │   └── 📁 PointCloud
+    │       └── 🪨 *.las
     └── 📁 31_Output
         └── 🖼️ *.png
 
@@ -144,9 +145,10 @@ Das Repository `BTh11_Trieblaengenwachstum` ist modular aufgebaut und gliedert s
     ├── 📄 05_A_Software_Comparison_PointCloud.ipynb
     ├── 📄 05_B_Software_Comparison_RMSE.ipynb
     ├── 📁 50_BaseData
-    │   └── 📁 CSV
-    │       └── 📄 SfM_Reports_RMSE_Values.csv
-    │   └── 🪨 *.las
+    │   ├── 📁 CSV
+    │   │   └── 📄 SfM_Reports_RMSE_Values.csv
+    │   └── 📁 PointCloud
+    │       └── 🪨 *.las
     └── 📁 51_Output
         └── 🖼️ *.png
 
@@ -167,7 +169,8 @@ Das Repository `BTh11_Trieblaengenwachstum` ist modular aufgebaut und gliedert s
     ├── 📄 07_B_Histogramm_PG-PointCloud_Completeness.ipynb
     ├── 📄 07_C_Histogramm_ULS-PointCloud_Completeness.ipynb
     ├── 📁 70_BaseData
-    │   └── 🪨 *.las
+    │   ├── 📁 PointCloud
+    │   │   └── 🪨 *.las
     │   └── 📁 Screenshots
     │       └── 🖼️ *.png
     └── 📁 71_Output
@@ -175,10 +178,120 @@ Das Repository `BTh11_Trieblaengenwachstum` ist modular aufgebaut und gliedert s
 
 📁 08_PointCloud_2_Skeleton
     → Vorbereitung und Datenhaltung für Skelettierungsansätze (z. B. TreeQSM, AdTree)
+    └── 📁 80_BaseData
+        └── 📁 PointCloud
 
 📁 09_CraneCam_ZHAW_Comparison
     → Vergleich von UAV-Punktwolken mit Bilddaten des CraneCam-Systems (ZHAW)
     ├── 📄 09_A_CraneCam_ZHAW_Comparison_RMSE.ipynb
     ├── 📄 09_B_CraneCam_ZHAW_Comparison_PointCloud_Confidence.ipynb
-    └── 📄 09_C_CraneCam_ZHAW_Comparison_PointCloud_Graphical.ipynb
+    ├── 📄 09_C_CraneCam_ZHAW_Comparison_PointCloud_Graphical.ipynb
+    ├── 📁 90_BaseData
+    │   └── 📁 CSV
+    │       └── 📄 Vergleich_CraneCam_ZHAW.csv
+    └── 📁 91_Output
+        ├── 🖼️ *.png
+        └── 📄 09_CraneCam_ZHAW_Comparison_PointCloud_Cyclone.pdf
+
+📁 10_ImageAlignment_Testing
+    → Einfluss unterschiedlicher Matching-/Alignment-Parameter auf die Rekonstruktion
+    ├── 📄 10_A_ImageAlignement_Testing_RMSE.ipynb
+    ├── 📄 10_A_ImageAlignment_Testing_RMSE.ipynb
+    ├── 📄 10_B1_ImageAlignment_Testing_PointCloud_clipped_Confidence.ipynb
+    ├── 📄 10_B2_ImageAlignment_Testing_PointCloud_tree_Confidence.ipynb
+    ├── 📄 10_B3_ImageAlignment_Testing_PointCloud_tree_cleaned_Confidence.ipynb
+    ├── 📄 10_C_ImageAlignment_Testing_PointCloud_Graphical.ipynb
+    ├── 📁 100_BaseData
+    │   └── 📁 CSV
+    │       └── 📄 10_ImageAlignment_Testing.csv
+    └── 📁 101_Output
+        └── 🖼️ *.png
+
+📁 11_Camera_TestChart
+    → Vergleich der Kameras anhand ISO-12233-Charts zur Beurteilung der Bildqualität
+    ├── 📄 11_A_Comparison_12MP-48MP.ipynb
+    ├── 📄 11_B_Comparison_Phantom_Mini.ipynb
+    ├── 📄 11_C_Comparison_Mini_Mavic.ipynb
+    ├── 📄 11_D_Comparison_Tree.ipynb
+    ├── 📁 110_A_BaseData
+    │   └── 🖼️ *.JPG
+    ├── 📁 110_B_BaseData
+    │   └── 🖼️ *.JPG
+    ├── 📁 110_C_BaseData
+    │   └── 🖼️ *.JPG
+    ├── 📁 110_D_BaseData
+    │   └── 🖼️ *.JPG
+    └── 📁 120_Output
+        └── 🖼️ *.png
+
+📁 12_CameraCalibration
+    → Analyse und Visualisierung der internen Kamerakalibrierungsparameter
+    ├── 📄 11_A_CameraCalibration_DJIMini3Pro.ipynb
+    ├── 📄 11_B_CameraCalibration_DJIPhantom4ProV2.ipynb
+    ├── 📄 12_A_CameraCalibration_DJIMini3Pro.ipynb
+    ├── 📄 12_B_CameraCalibration_DJIPhantom4ProV2.ipynb
+    ├── 📁 120_A_BaseData
+    │   ├── 📄 Kameraparameter_DJIMini3Pro_Kirsche.csv
+    │   └── 📄 Kameraparameter_DJIPhantom4ProV2_Kirsche.csv
+    └── 📁 121_Output
+        └── 🖼️ *.png
+
+📁 13_Voxel_based_pc_analysis
+    → Voxelisierung von Punktwolken zur volumetrischen Analyse der Baumkronen
+    └── 📄 13_A_Voxel_Grid_Generating.py
+
+📁 14_TreeQSM-Zylinder_to_Skeleton
+    → Transformation von QSM-Zylindermodellen in Skelettstrukturen (Triebebene)
+    ├── 📄 14_TreeQSM-Zylinder_to_Skeleton.ipynb
+    └── 📁 140_BaseData
+        ├── 📄 branch_tree_t1_m1_D0.08_DA0.1_DI0.02.txt
+        ├── 📄 cylinder_tree_t1_m1_D0.08_DA0.1_DI0.02.txt
+        ├── 📁 pointcloud
+        └── 📁 treedata_statistics
+            └── 📄 *.txt
+
+📁 15_Calendar_Vis
+    → Visualisierung der Aufnahme- und Messzeitpunkte im Projektverlauf
+    ├── 📄 15_Calendar_Vis.ipynb
+    ├── 📁 150_BaseData
+    │   ├── 📄 messstreifen_aufnahmen_fhnw.csv
+    │   ├── 📄 tls_aufnahmen_fhnw.csv
+    │   └── 📄 uav_aufnahmen_fhnw.csv
+    └── 📁 151_Output
+        └── 🖼️ *.png
+
+📁 16_Metadata_Statistics
+    → Analyse der EXIF-Daten zur Nachvollziehbarkeit der UAV-Aufnahmen
+    ├── 📄 16_Test_EXIF-Data_DJIMini3Pro.ipynb
+    ├── 📄 16_Test_EXIF-Data_DJIPhantom4ProV2.ipynb
+    └── 📁 161_Output
+        ├── 📄 exif_auswertung_mini3pro_ahorn.csv
+        ├── 📄 exif_auswertung_mini3pro_kirsche.csv
+        ├── 📄 exif_auswertung_mini3pro_linde.csv
+        └── 📄 exif_auswertung_phantom4prov2_kirsche.csv
+
+📁 17_ShootLengthGrowth_Vis
+    → Visualisierung gemessener Trieblängen (Messstreifen, Kurvenverlauf pro Baumart)
+    ├── 📄 17_ShootLengthGrowth_Vis.ipynb
+    ├── 📁 170_BaseData
+    │   ├── 📄 data_ahorn_messsstreifen.csv
+    │   ├── 📄 data_kirsche_messsstreifen.csv
+    │   └── 📄 data_linde_messsstreifen.csv
+    └── 📁 171_Output
+        └── 🖼️ *.png
+
+📁 18_Timeline_RMSE_ERROR
+    → Zeitreihenvergleich der RMSE-Werte (3D-Fehler, Pixelabweichung)
+    ├── 📄 17_TimelineRMSEerror_Vis_Abbildungen.ipynb
+    ├── 📄 17_TimelineRMSEerror_Vis_Anhang.ipynb
+    ├── 📄 18_TimelineRMSEerror_Vis.ipynb
+    ├── 📁 180_BaseData
+    │   └── 📄 zeitreihe_pg_auswertung.csv
+    └── 📁 181_Output
+        ├── 🖼️ *.png
+        └── 📁 anhang
+            └── 🖼️ *.png
+
+📁 99_old
+    → Archivierte Skripts
 ```
